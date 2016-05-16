@@ -1,0 +1,72 @@
+<!doctype html>
+<html >
+<head>
+
+<title></title>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+<script type="text/javascript" src="project.js"></script> 
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<body>
+	<div class="wrap">
+<header>
+	<h1>Dropsonde 101</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html">About</a></li>
+			<li><a href="index.html">Contact Us</a></li>
+		</ul>
+	</nav>
+</header>
+<br>
+<br>
+<section class="test">
+	<div>
+	<article>
+		<figure>
+			<img src="images/280px-Dropsonde.jpg" alt="Dropsonde Image"/>
+		</figure>
+		
+		<p>A dropsonde is an expendable weather reconnaissance device created by the National
+		Center for Atmospheric Research (NCAR), designed to be dropped from an aircraft at 
+	    altitude to more accurately measure (and therefore track) tropical storm conditions 
+		as the device falls to the surface.</p>
+		
+		
+		
+		<form>
+		<label  id="question">question</label><br>
+		<input type="radio" id="choice1" name="group1" value="1"><label id="label1">choice</label><br>
+		<input type="radio" id="choice2" name="group1" value="2"><label id="label2">choice</label><br>
+		<input type="radio" id="choice3" name="group1" value="3"><label id="label3">choice</label><br>
+		<input type="radio" id="choice4" name="group1" value="4"><label id="label4">choice</label><br>
+		<button type="button" onclick="test()" id="button">Submit</button>
+	
+	
+		</form>
+		
+	</article>
+	</div>
+
+	
+</section>
+
+<section class="matchingGame">	
+<div>
+	<p id="directions">Given the following dropsonde readings, match each reading to the corresponding spot on the grid. </p>
+	<div id="cardPile"></div>
+	<div id="cardSlots"></div>
+	<div id="success"></div>
+</div>
+</section>
+<footer>Website designed by Scott Spencer, information provided by wikipedia</footer>
+	</div> <!--class wrap-->
+</body>
